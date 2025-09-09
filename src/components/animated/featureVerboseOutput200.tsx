@@ -40,7 +40,7 @@ export function FeatureVerboseOutput200() {
 
             {/* Terminal body */}
             <div className="flex-1 font-mono text-xs text-white px-5 py-2 overflow-hidden flex flex-col justify-end">
-                {visible.map((item, i) => (
+                {visible.map((item) => (
                     <motion.div
                         key={item.id}
                         initial={{ opacity: 0, y: 6 }}

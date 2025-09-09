@@ -1,4 +1,3 @@
-import { Gemini, Replit, GooglePaLM } from '@/components/logos'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { ArrowUpRight, Plus } from 'lucide-react'

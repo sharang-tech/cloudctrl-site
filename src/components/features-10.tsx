@@ -1,7 +1,6 @@
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
-import { Calendar, LucideIcon, MapIcon, Terminal, Waypoints } from 'lucide-react'
-import Image from 'next/image'
+import { LucideIcon, Terminal, Waypoints } from 'lucide-react'
 import { ReactNode } from 'react'
 
 export default function Features() {
